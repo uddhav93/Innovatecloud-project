@@ -1,0 +1,35 @@
+/* general css */
+img
+{
+    max-width: 100%;
+    height: auto;
+
+}
+/* body style */
+.bckground-body
+{
+    background-color: #F5F5F5;
+}
+/* section style css*/
+/* hero section */
+.hero
+{
+    background-image: url(Images/Stationary.jpg);
+    color:#5500ff;
+    font-size: 20px;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding:8% 5%;
+}
+/* Contact us section */
+.icon-list{
+    list-style-type: none;
+}
+.icon-list-link
+{
+    text-decoration: none;
+    color: #302929;
+    font-size: 20px;
+}
