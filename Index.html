@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <title>Creative Strokes</title>
 </head>
@@ -11,7 +12,7 @@
     <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"> <img src="Images/logo.png" alt="logo" height="120" width="150"></a>
+                    <a class="navbar-brand" href="#"> <img src="Images/logo.png" alt="logo" height="80" width="100"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -64,51 +65,82 @@
                 </div>
             </div>
         </section>
-        <section class="text-center">
+        <section class="text-center bg-body-tertiary">
             <br>
             <h2>Our Products</h2>
             <br>
-            <div class="row container-fluid">
-                <div class="col-sm-4">
-                    <img src="Images/pens.jpg" alt="pens and pencils" height="500" width="500" class="img-fluid">
+            <div class="row justify-content-center text-center mx-1">
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <img src="Images/pens.jpg" alt="pens and pencils" class="img-fluid mb-2">
                 </div>
-                <div class="col-sm-4">
-                    <img src="Images/stationary-1.jpg" alt="stationary"  height="500" width="500" class="img-fluid">
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <img src="Images/stationary-1.jpg" alt="stationary" class="img-fluid mb-2">
                 </div>
-                <div class="col-sm-4">
-                    <img src="Images/Stationary-items.jpeg" alt="Stationary"  height="500" width="500" class="img-fluid">
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <img src="Images/Stationary-items.jpeg" alt="Stationary" class="img-fluid mb-2">
                 </div>
             </div>
             <br>
         </section>
         <section>
             <div class="text-center">
+                <h2>Testimonial</h2>
+            </div>
+            <div class="row mx-1 d-flex justify-content-center">
+                <div class="col-sm-4">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header">Ritika Sharma, Delhi</div>
+                        <div class="card-body">
+                            <h5 class="card-title">A Perfect Blend of Quality and Creativity!</h5>
+                            <p class="card-text">I’ve been using Creative Strokes’ notebooks and pens for my office work, and they're simply amazing. The quality and design make my tasks much more enjoyable!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header">Ananya Nair, Bangalore</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ideal for Art Enthusiasts!</h5>
+                            <p class="card-text">The sketchbooks and markers from Creative Strokes are perfect for my art projects. I love how vibrant and durable their products are. Great value for money!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-bg-light mb-3">
+                        <div class="card-header">Arjun Mehta, Mumbai</div>
+                        <div class="card-body">
+                            <h5 class="card-title">My Go-To Store for Stationery!</h5>
+                            <p class="card-text">As a college student, I rely on stationery for my studies, and Creative Strokes never disappoints. Their products are affordable and stylish—highly recommended!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-4">
+            <div class="text-center">
                     <h2>Contact Us</h2>
             </div>
-            <div class="row container-fluid">
-                <div class="col-sm-6">
+            <br>
+            <div class="row mx-1 d-flex justify-content-center">
+                <div class="col-sm-6 mb-3">
                     <form method="post" class="border p-2 border-dark rounded">
                        <div class="row">
                             <div class="col">
                                 <label for="First name">First name</label>
-                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                <input type="text" class="form-control mb-2" placeholder="First name" aria-label="First name">
                             </div>
                             <div class="col">
                                 <label for="Last name">Last name</label>
-                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                <input type="text" class="form-control mb-2" placeholder="Last name" aria-label="Last name">
                             </div>
                         </div>
-                        <br>
                         <label for="Email">Email Id</label>
-                        <input type="email" id="Email" placeholder="Email Id" class="form-control">
-                         <br>
+                        <input type="email" id="Email" placeholder="Email Id" class="form-control mb-2">
                         <label for="Phone">Phone</label>
-                        <input type="tel" name="Phone" id="Phone" placeholder="Phone no" class="form-control">
-                        <br>
+                        <input type="tel" name="Phone" id="Phone" placeholder="Phone no" class="form-control mb-2">
                         <label for="Message">Your Message</label>
-                        <textarea name="Message" placeholder="Your Message" id="Message" class="form-control"></textarea>
-                        <br>
-                        <button type="submit" class="btn btn-secondary">Submit</button>
+                        <textarea name="Message" placeholder="Your Message" id="Message" class="form-control mb-3"></textarea>
+                        <button type="submit" class="btn btn-secondary mb-2">Submit</button>
                     </form> 
                 </div>
                 <div class="col-sm-6">
@@ -129,13 +161,71 @@
                             <div class="col-6 text-start">
                                 <h3>Call Us:</h3>
                             </div>
-                            <p class="text-center"> <a href="tel:+91 8542316695" class="icon-list-link">8542316695</a></p>
+                            <p class="text-center"> <a href="tel:+91 8542316695" class="icon-list-link">+91 8542316695</a></p>
+                        </li>
+                        <li class="row">
+                            <div class="col-3 text-end">
+                                <img src="Images/placeholder.png" alt="Address" height="32" width="32" class="img-fluid">
+                            </div>
+                            <div class="col-6 text-start">
+                                <h3>Address</h3>
+                            </div>
+                            <p > 
+                                <address class="text-center">
+                                    23 - 29, St. Mark's Road,<br> 
+                                    Near Vittal Mallya Road<br>
+                                    St Marks Road,Banglore-560001
+                                </address> 
+                            </p>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="bg-secondary my-2">
+        <br>
+        <div class="row mx-1 d-flex justify-content-center">
+            <div class="col-sm-4 my-3">
+                <img src="Images/logo.png" alt="logo" height="100" width="150" class="img-fluid">
+                <div class="row mx-1">
+                    <div class="col-2">
+                        <a href="#" class="social-link "><img src="Images/facebook.png" class="img-fluid" alt="facebook"></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="social-link"><img src="Images/instagram.png" alt="instagram" class="img-fluid"></a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#" class="social-link"> <img src="Images/twitter.png" alt="twitter" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 my-3">
+                    <h2 class="text-light">Contact Us</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <p>Email:<a href="mailto:support@creativestrokes.com">support@creativestrokes.com</a></p>
+                        </li>
+                        <li>
+                             <p>Phone No:<a href="tel:+91 8542316695">8542316695</a></p>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col-sm-4 my-3">
+                <h2 class="text-light">Quick Links</h2>
+                <ul class="footer-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Product</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="color:white">
+        <h3 class="text-light text-center ">© 2025 Creative Strokes. All Rights Reserved.</h3>
+        <br>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

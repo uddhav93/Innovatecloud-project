@@ -3,19 +3,22 @@ img
 {
     max-width: 100%;
     height: auto;
-
+}
+address
+{
+    font-size: 20px;
 }
 /* body style */
 .bckground-body
 {
-    background-color: #F5F5F5;
+    background-color: #726f6f;
 }
 /* section style css*/
 /* hero section */
 .hero
 {
     background-image: url(Images/Stationary.jpg);
-    color:#5500ff;
+    color:#f5f5f5;
     font-size: 20px;
     background-size: cover;
     align-items: center;
@@ -32,4 +35,28 @@ img
     text-decoration: none;
     color: #302929;
     font-size: 20px;
+}
+/* footer */
+.social-links
+{
+     text-decoration: none;
+    color: #302929;
+    font-size: 20px;
+}
+
+.footer-list
+{
+    color:white;
+    list-style-type: none;
+    font-size: 20px;
+}
+.footer-list h3 a
+{
+    text-decoration: none;
+    color: #dacccc;
+}
+.footer-list li a
+{
+    text-decoration: none;
+    color: #dacccc;
 }
