@@ -1,0 +1,12 @@
+Project:
+The Project is about a stationary shop website.
+This is a landing page with the of the stationary shop  which supplies both retail and wholesale.
+This website is made as a sample site.
+What i have learned:
+I have learned about html,css and responsive design, also i learned thoug task about the combination and how can one make a good website.
+I Also had the opportunity to learn and implement figma,version control like git.
+I Learned how to make wireframes for website design and how website can be designed.
+Challanges:
+Challenges are:
+1)Thinking good design
+2)Figma
